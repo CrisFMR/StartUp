@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+	
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+	background: rgb(185,255,0);
+	background: linear-gradient(63deg, rgba(185,255,0,1) 0%, rgba(159,26,150,1) 51%, rgba(4,4,4,1) 100%) fixed;
+    color: black;
+    
+}
+
+.card{
+	background: rgba(121, 2, 204, 0.19);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.9px);
+	-webkit-backdrop-filter: blur(4.9px);
+}
+
+label{
+	font-weight: bold;
+	color: white;
+}
+
+hr {
+   	background: rgb(185,255,0);
+	background: radial-gradient(circle, rgba(185,255,0,1) 0%, rgba(159,26,150,1) 51%, rgba(4,4,4,1) 100%);
+   	height: 3px;
+}
+
+.btn{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #2c0b8e;
+ z-index: 1;
+}
+.btn:hover:after {
+  width: 100%;
+  left: 0;
+}
+.btn:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #3d348b;
+  right: 0;
+}
+.btn:active {
+  top: 2px;
+}
+
+header {
+	background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.60) 62%);
+}
+
+.navbar{
+	background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.60) 62%);
+	
+}
+
+footer {
+	background: rgb(30,13,77);
+background: linear-gradient(0deg, rgba(30,13,77,0.6839110644257703) 0%, rgba(0,0,0,0.17970938375350143) 62%);
+	position: absolute; width: 100%;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+  
